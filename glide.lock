@@ -1,0 +1,53 @@
+hash: f40fd86ce52bab5a69b85078b8da124cfd1e9fd5de6ad0a6e6c6cbe4513a2285
+updated: 2016-10-20T22:31:32.068315818-04:00
+imports:
+- name: github.com/gogo/protobuf
+  version: 909568be09de550ed094403c2bf8a261b5bb730a
+  subpackages:
+  - protoc-gen-gogofaster
+- name: github.com/golang/protobuf
+  version: 98fa357170587e470c5f27d3c3ea0947b71eb455
+  subpackages:
+  - proto
+- name: github.com/klauspost/compress
+  version: d0763f13d86e630f5d3ea9fa848a6ecc68255297
+  subpackages:
+  - flate
+  - gzip
+  - zlib
+- name: github.com/klauspost/cpuid
+  version: 09cded8978dc9e80714c4d85b0322337b0a1e5e0
+- name: github.com/klauspost/crc32
+  version: 19b0b332c9e4516a6370a0456e6182c3b5036720
+- name: github.com/msgpack-rpc/msgpack-rpc-go
+  version: c76397e1782b405898e63aa8e0d94ca67f71d862
+  subpackages:
+  - rpc
+- name: github.com/msgpack/msgpack-go
+  version: 8224460e6fa391fb60f71b74f54aae38c62e7e0d
+- name: github.com/valyala/fasthttp
+  version: d42167fd04f636e20b005e9934159e95454233c7
+  subpackages:
+  - fasthttputil
+- name: golang.org/x/net
+  version: 8b4af36cd21a1f85a7484b49feb7c79363106d8e
+  subpackages:
+  - context
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: google.golang.org/grpc
+  version: b0578483843681a8905bc4d77c593c5ce0741210
+  subpackages:
+  - codes
+  - credentials
+  - grpclog
+  - internal
+  - metadata
+  - naming
+  - peer
+  - transport
+testImports: []

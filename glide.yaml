@@ -1,0 +1,13 @@
+package: github.com/simongui/rpc-benchmarks
+import:
+- package: github.com/gogo/protobuf
+  version: ~0.3.0
+  subpackages:
+  - protoc-gen-gogofaster
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: github.com/valyala/fasthttp
+  version: ~20160617.0.0
+- package: github.com/msgpack-rpc/msgpack-rpc-go
+- package: github.com/msgpack/msgpack-go
